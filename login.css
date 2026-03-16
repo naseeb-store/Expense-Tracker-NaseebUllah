@@ -1,0 +1,130 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, sans-serif;
+}
+
+body{
+background:#f4f7fb;
+color:#333;
+}
+
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+nav h2{
+color:#4CAF50;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+.main{
+    margin-left: 450px;
+    margin-top: 100px;
+    height: 500px;
+    width: 350px ;
+    background: rgb(162, 162, 162);
+    border-radius: 20px;
+}
+
+.main h2{
+    padding-left: 90px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+
+.main .email-input{
+    height: 40px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: 2px solid aliceblue;
+    padding-left: 30px;
+}
+
+.main .password-input{
+     height: 40px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: 2px solid aliceblue;
+    padding-left: 30px;
+}
+
+.btn{
+   height: 40px;
+   width: 300px;
+   margin-top:30px ;
+   background: #3b743d;
+   border-radius: 30px;
+   margin-left: 18px;
+   border: 2px solid aliceblue;
+}
+.btn:hover{
+    background: transparent;
+    transition: .5s;
+}
+.btn .login{
+    color: aliceblue;
+    margin-left: 120px;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    top: 10px;
+}
+
+.reset{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 30px;
+    border: 2px solid aliceblue;
+    background: transparent;
+    margin-left: 15px;
+    margin-top: 50px;
+    color: #f4f7fb;
+    font-size: 20px;
+}
+
+.reset:hover{
+    background: #3b743d;
+    transition: .5s;
+}
+footer{
+margin-top: 50px;
+text-align:center;
+padding:20px;
+background:#222;
+color:white;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Add Transaction </title>
+<link rel="stylesheet" href="/add-transaction.css">
+</head>
+<body>
+<nav>
+<h2>ExpenseTracker</h2>
+<ul>
+<li><a href="/index.html">Home</a></li>
+<li><a href="/add-transaction.html">Add Transaction</a></li>
+<li><a href="/transactions.html">History</a></li>
+<li><a href="#">Logout</a></li>
+</ul>
+</nav>
+
+<section class="main">
+    <h1> Add Transaction </h1>
+
+    <form action="">
+
+        <label for="Type">Transaction Type</label>
+        <select name="Type" id="Type">
+            <option value="">Select Type</option>
+            <option value="Income">Income</option>
+            <option value="Expense">Expense</option>
+        </select>
+
+        <label for="Amount">Amount</label>
+        <input type="number" placeholder="Amount" class="Amount">
+
+        <label for="Amount">Category</label>
+        <input type="text" placeholder="Salary / Food etc...    " class="Amount">
+
+        <label for="Amount">Date</label>
+        <input type="date" placeholder="Date" class="Amount">
+
+        <label for="Amount">Description</label>
+        <textarea name="Description" id="Description">
+            Optional Description
+        </textarea>
+    </form>
+    <button type="submit" class="btn">Add Transaction </button>
+</section>
+
+
+<footer>
+<p>© 2026 Naseeb Ullah. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
